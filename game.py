@@ -35,7 +35,6 @@ class Game:
             self.clock.tick(settings.FPS)
             self.events()
             self.update()
-            self.player.update()
             self.draw()
 
     def update(self):
